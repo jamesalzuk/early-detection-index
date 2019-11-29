@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<title>Home</title>
+  <body>
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid" href='/'>
+        <form role="form" method='GET' action='/measurable?'>
+	        <div class="form-group">
+	          <input type="text" name="search" class="form-control" id="url-box" placeholder="Search..." style="max-width: 300px;" autofocus required>
+	        </div>
+      	</form>
+      </div>
+    </div>
+  </body>
+{% endblock %}  
